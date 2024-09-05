@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transitions in CSS</title>
+    <style>
+        img {
+            width: 400px;
+            /* transition-delay: 2s;
+            transition-duration: 4s;
+            transition-timing-function: ease-in-out; */
+            /* transition-property: border-radius border; */
+            /* transition-property: all;  */
+            transition: all 4s ease 2s;
+        }
+         img:hover {
+            margin-top: 10rem;
+            margin-left: 100px;
+            border-radius: 50%;
+            border: 5px solid red;
+            box-shadow: 21px 13px 20px rgb(230, 123, 123, 0.6);
+            transition-delay: 2s;
+            transition-duration: 4s;
+            transition-timing-function: ease-in-out;
+            transform: skew(100deg);
+        }
+    </style>
+</head>
+<body>
+    <!-- <h1>This is Transition page</h1> -->
+
+    <form>
+        <input type="text" placeholder="enter your name">
+    </form>
+
+    <img src="https://tse1.mm.bing.net/th?id=OIP.cfxVoPK-zXAsxKiTmA3qVwHaFj&pid=Api&P=0&h=180" alt="">
+    <!-- <img src="https://tse4.mm.bing.net/th?id=OIP.HxV79tFMPfBAIo0BBF-sOgHaEy&pid=Api&P=0&h=180" alt="">
+    <img src="https://tse4.mm.bing.net/th?id=OIP.rvSWtRd_oPRTwDoTCmkP5gHaE8&pid=Api&P=0&h=180" alt="">
+    <img src="https://tse1.mm.bing.net/th?id=OIP.TYJqmFIrO3WDbgmf8QsAowHaE8&pid=Api&P=0&h=180" alt=""> -->
+</body>
+</html>
